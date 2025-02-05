@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wlinks</title>
+  <link rel="icon" type="image/webp" href="w.webp">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <button class="menu-btn" onclick="toggleSidebar()">☰</button>
+    <a href="index.html" class="logo">
+      <span class="w">W</span><span class="link">links</span>
+    </a>
+  </header>
+
+  <div id="overlay" class="overlay" onclick="toggleSidebar()"></div>
+  <div id="sidebar" class="sidebar">
+    <button class="close-btn" onclick="toggleSidebar()">✖</button>
+    <a href="index.html">Home</a>
+    <a href="#About" onclick="toggleSidebar()">About</a>
+  </div>
+
+  <main>
+    <h1>Hi, I'm Wael</h1>
+    <section>
+      <img src="gmail.webp" alt="Gmail Icon">
+      <a href="mailto:wael.harizi@isimg.tn?subject=Hi Wael , I'm...&body=I wanted to...">For Collaboration</a>
+    </section>
+    <section>
+      <img src="isimg.webp" alt="ISIMG Icon">
+      <a href="https://keenisimg.netlify.app/" target="_blank">Keenisimg</a>
+    </section>
+    <section>
+      <img src="github.webp" alt="GitHub Icon">
+      <a href="https://github.com/hariziwael" target="_blank">GitHub</a>
+    </section>
+    <section>
+      <img src="linkedin.webp" alt="LinkedIn Icon">
+      <a href="https://www.linkedin.com/in/wael-harizy-44b275260/" target="_blank">LinkedIn</a>
+    </section>
+    <section>
+      <img src="youtube.webp" alt="YouTube Icon">
+      <a href="https://www.youtube.com/@mohawyl" target="_blank">YouTube</a>
+    </section>
+    <section>
+      <img src="ngl.webp" alt="NGL Icon">
+      <a href="https://ngl.link/hariziwael" target="_blank">Ngl</a>
+    </section>
+  </main>
+
+  <div class="container">
+    <div class="icon-row">
+      <a class="icon" href="https://www.instagram.com/keenimx/" target="_blank">
+        <img src="insta.webp" alt="Instagram">
+      </a>
+      <a class="icon" href="https://wa.me/+21629592853" target="_blank">
+        <img src="whatsapp.webp" alt="WhatsApp">
+      </a>
+      <a class="icon" href="https://www.facebook.com/wylharizi" target="_blank">
+        <img src="facebook.webp" alt="Facebook">
+      </a>
+      <a class="icon" href="https://www.snapchat.com/add/wael_harizy" target="_blank">
+        <img src="snap.webp" alt="Snapchat">
+      </a>
+    </div>
+  </div>
+
+  <aside>
+    <img class="avatar" src="social.webp" alt="Profile Image" width="300" height="450">
+  </aside>
+
+  <footer>
+    <div class="left">
+      <a href="index.html" class="logo">
+        <span class="w">W</span><span class="link">links</span>
+      </a>
+      <p id="About">
+        Welcome to Wlinks, a central hub to easily access all my social profiles, websites, and contact links with just a click. Thank you for visiting!
+      </p>
+    </div>
+    <div class="bottom-center">
+      <p class="all">All Rights Reserved</p>
+      <p>Wlinks 2024 &copy;</p>
+    </div>
+  </footer>
+</body>
+</html>
